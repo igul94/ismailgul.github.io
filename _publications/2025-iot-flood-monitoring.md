@@ -4,7 +4,7 @@ title: "Dual-Purpose and Low-Cost IoT-Based Sensor Network for Real-Time Rainfal
 collection: publications
 category: manuscripts
 permalink: /publication/iot-flood-monitoring/
-date: 2026-01-01
+date: 2025-11-24
 venue: "IEEE Internet of Things Journal, 13(4), 6640–6654"
 excerpt: "Development and evaluation of a low-cost IoT sensor network for simultaneous rainfall and urban flood monitoring."
 paperurl: "https://ieeexplore.ieee.org/abstract/document/11265741"
