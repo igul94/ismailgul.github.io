@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Ismail Gul"
 title_separator          : "-"
 name                     : &name "Ismail Gul"
@@ -22,7 +22,7 @@ repository               : "igul94/ismailgul.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "igul_profile.png"
   name             : "Ismail Gul"
   pronouns         :
   bio              : "Ph.D. Candidate | Remote Sensing, Radar Technologies & Hydrometeorology"
