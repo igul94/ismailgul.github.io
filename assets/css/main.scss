@@ -36,3 +36,8 @@
     "layout/archive",
     "layout/sidebar"
 ;
+
+/* Hide footer on all pages */
+.page__footer {
+  display: none !important;
+}
