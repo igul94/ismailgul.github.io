@@ -36,8 +36,10 @@
     "layout/archive",
     "layout/sidebar"
 ;
-
-/* Hide footer on all pages */
-.page__footer {
+/* Remove footer */
+.page__footer,
+footer.page__footer,
+.page__footer-follow,
+.page__footer-copyright {
   display: none !important;
 }
