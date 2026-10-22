@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Presentations"
+permalink: /presentations/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign sorted_presentations = site.presentations | sort: "date" | reverse %}
+
+{% for post in sorted_presentations %}
+  {% include archive-single.html %}
+{% endfor %}
