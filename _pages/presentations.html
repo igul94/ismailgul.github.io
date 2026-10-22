@@ -1,3 +1,4 @@
+
 ---
 layout: archive
 title: "Presentations"
@@ -10,5 +11,27 @@ author_profile: true
 {% assign sorted_presentations = site.presentations | sort: "date" | reverse %}
 
 {% for post in sorted_presentations %}
-  {% include archive-single.html %}
+
+  <div class="presentation-item" style="margin-bottom: 2.2em;">
+
+    <h2 class="archive__item-title" style="margin-bottom: 0.5em;">
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">
+          {{ post.title }}
+        </a>
+      {% else %}
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+      {% endif %}
+    </h2>
+
+    {% if post.venue %}
+      <p style="margin: 0; font-size: 0.9em;">
+        Presented at <i>{{ post.venue }}</i>
+      </p>
+    {% endif %}
+
+  </div>
+
 {% endfor %}
