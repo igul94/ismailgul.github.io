@@ -7,6 +7,23 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% assign sorted_courses = site.teaching | sort: "date" | reverse %}
+
+{% for post in sorted_courses %}
+  <div class="teaching-item" style="margin-bottom: 2em;">
+
+    <h2 class="archive__item-title" style="margin-bottom: 0.5em;">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h2>
+
+    <p style="margin: 0 0 1em 0;">
+      {{ post.role | default: "Teaching Assistant" }},
+      <i>{{ post.institution | default: "Stevens Institute of Technology" }}</i>
+    </p>
+
+    {% if post.semester %}
+      <p>{{ post.semester }}</p>
+    {% endif %}
+
+  </div>
 {% endfor %}

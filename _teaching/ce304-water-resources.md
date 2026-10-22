@@ -6,6 +6,9 @@ permalink: /teaching/ce304-water-resources/
 venue: "Stevens Institute of Technology, Department of Civil, Environmental and Ocean Engineering"
 date: 2026-01-01
 location: "Hoboken, New Jersey"
+role: "Teaching Assistant"
+institution: "Stevens Institute of Technology"
+semester: "Spring 2025 and Spring 2026"
 ---
 
 I served as a Teaching Assistant for CE 304: Water Resources Engineering during the Spring 2025 and Spring 2026 semesters.
