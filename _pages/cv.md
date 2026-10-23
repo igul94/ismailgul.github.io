@@ -6,11 +6,11 @@ permalink: /cv/
 author_profile: false
 ---
 
-<meta http-equiv="refresh"
-      content="0; url={{ '/files/Ismail_Gul_CV.pdf' | relative_url }}">
+<script>
+  window.location.replace(
+    "{{ '/files/Ismail_Gul_CV.pdf' | relative_url }}"
+  );
+</script>
 
-<p>
-  <a href="{{ '/files/Ismail_Gul_CV.pdf' | relative_url }}">
-    View my academic CV (PDF)
-  </a>
-</p>
+If you are not redirected automatically,
+[click here to view my CV]({{ '/files/Ismail_Gul_CV.pdf' | relative_url }}).
