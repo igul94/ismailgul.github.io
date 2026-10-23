@@ -27,7 +27,7 @@ main:
   #  url: /year-archive/
     
   - title: "CV"
-    url: /files/Ismail_Gul_CV.pdf
+    url: "https://igul94.github.io/ismailgul.github.io/files/Ismail_Gul_CV.pdf"
     
   #- title: "Guide"
   #  url: /markdown/
